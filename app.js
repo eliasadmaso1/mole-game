@@ -4,7 +4,7 @@ const scoreElement = document.querySelector(".score span");
 
 let score = 0;
 
-const sound = new Audio("/assets/smash.mp3");
+const sound = new Audio("assets/smash.mp3");
 
 
 
@@ -15,7 +15,7 @@ const run = () => {
 
   const img = document.createElement("img");
   img.classList.add("mole");
-  img.setAttribute("src","/assets/mole.png");
+  img.setAttribute("src","https://media.istockphoto.com/vectors/cute-cartoon-groundhod-vector-id645546840?k=20&m=645546840&s=612x612&w=0&h=mruuzXSU7-FrH6gfbHq8e0xPB6Aov6A5uU7cvbKibm8=");
 
   img.addEventListener("click", () => {
     score += 10;
